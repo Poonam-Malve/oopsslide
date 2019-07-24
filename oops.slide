@@ -21,8 +21,8 @@ Poonam Malve
 Contd..
 
 * Introduction to OOPs (Contd..)
-  The mentioned concept properties are implemented in most popular OO languages, Java and C++ by mechanics 
-  such as:
+  The mentioned concept properties are implemented in most popular OO languages, Java and C++ 
+  by mechanics such as:
 - Encapsulation (possible on package level in Go)
 - Composition (possible through embedding in Go)
 - Polymorphism (possible through Interface satisfaction in Go. Type satisfies Interface without manually implementing it if it defines all the Interface methods. Since almost anything can have methods attached, even primitive types such as Int, almost anything can satisfy an interface)
@@ -34,9 +34,16 @@ Contd..
 - Embedding
 - Interfaces
 
-** Structs:
-  A struct defines state. Here is a Creature struct. It has a Name field and a boolean flag called Real, which tells us if it's a real creature or an imaginary creature. Structs hold only state and no behavior.
+* Structs:
+  A struct defines state. Here is a Student struct. It has a Name field and a integer called ID, which tells us if student got his/her Student ID. Structs hold only state and no behavior.
 
+  type Student struct {
+ 
+  Name string
+ 
+  ID int
+ 
+}
 * Interface:
 - Go isn’t object oriented in the typical sense, i.e. if you’re coming from C#, Java or even C++, but it does offer some features which map to features often available in the OO world in one way or another.
 - It does not have exact Inheritance but duck typing. 
