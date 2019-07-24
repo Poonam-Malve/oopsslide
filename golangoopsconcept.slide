@@ -5,7 +5,7 @@ Tags: go golang oops concepts
 Poonam Malve
 
 * Agenda
-- Strings
+- Interface
 - Struct
 - Defer, Panic and Recover
 - Timer and Ticker
