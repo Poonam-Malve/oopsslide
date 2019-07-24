@@ -12,8 +12,7 @@ Poonam Malve
 
 * Slide 1
 Test slide
-.play interfacedemo/main.go /^func main/,/^}/
-Cont..
+.code interfacedemo/main.go
 
 
 * Strings in Go
