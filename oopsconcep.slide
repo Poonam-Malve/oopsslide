@@ -12,11 +12,11 @@ Poonam Malve
 
 * Slide 1
 Test slide
-.code interfacedemo.go /^//Part 1/,/^//Part 2/
+.code interfacedemo/main.go /^//Part 1/,/^//Part 2/
 Cont..
 
 * Slide 2
-.play interfacedemo.go /^//Part 2/,/^//END/
+.play interfacedemo/main.go /^//Part 2/,/^//END/
 
 
 * Strings in Go
