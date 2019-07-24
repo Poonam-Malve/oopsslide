@@ -6,10 +6,8 @@ Poonam Malve
 
 * Agenda
 - Introduction to OOPs
+- Go Object-Oriented Language Features
 - Interface
-- Struct
-- Defer, Panic and Recover
-- Timer and Ticker
 
 * Introduction to OOPs
   OOP based on the definition:
@@ -53,6 +51,13 @@ Contd..
 
       func (s Student) GetData() {
           fmt.Printf("Name: '%s', ID: %d\n", s.Name, s.ID)}
+          
+* Features (Contd..)
+
+*3.Embedding:*
+- You can embed anonymous types inside each other. 
+- If you embed a nameless struct then the embedded struct provides its state (and methods) to the embedding struct directly. 
+- For example, the *RegularStudent* has a nameless *Student* struct embedded in it, which means a *RegularStudent* is a *Student*.
      
 * Interface:
 - Go isn’t object oriented in the typical sense, i.e. if you’re coming from C#, Java or even C++, but it does offer some features which map to features often available in the OO world in one way or another.
