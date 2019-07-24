@@ -17,6 +17,7 @@ Poonam Malve
 - an Object’s procedures can access and often modify the attributes of the object with which they are associated
 - an Object’s internal state is protected from outside world (encapsulated) leveraging private/protected/public visibility of attributes and methods
 - an Object is frequently defined in OO languages as an instance of a Class
+- The most striking omission as far as object-oriented is concerned is that there is no type hierarchy in Go.
 Contd..
 
 * Introduction to OOPs (Contd..)
@@ -28,7 +29,11 @@ Contd..
 
 
 * Interface:
-Go isn’t object oriented in the typical sense, i.e. if you’re coming from C#, Java or even C++, but it does offer some features which map to features often available in the OO world in one way or another.
+- Go isn’t object oriented in the typical sense, i.e. if you’re coming from C#, Java or even C++, but it does offer some features which map to features often available in the OO world in one way or another.
+- It does not have exact Inheritance but duck typing. 
+- Duck typing comes from the phrase – if something looks like a duck, swims like a duck and quacks like a duck then it’s probably a duck.
+
+* Implementation:
 .code interfacedemo/main.go /^//Part 1/,/^//Part 2/
 Contd..
 
