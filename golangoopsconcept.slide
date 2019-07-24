@@ -12,7 +12,7 @@ Poonam Malve
 
 * Slide 1
 Test slide
-.code interfacedemo/main.go /^//Part 1/,/^//Part 2/
+.code interfacedemo/main.go
 Cont..
 
 * Slide 2
