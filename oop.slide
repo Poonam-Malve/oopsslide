@@ -35,15 +35,14 @@ Contd..
 - Interfaces
 
 * Structs:
-  A struct defines state. Here is a Student struct. It has a Name field and a integer called ID, which tells us if student got his/her Student ID. Structs hold only state and no behavior.
+  A struct defines state. Here is a Student struct. It has a Name field and a integer called ID, 
+  which tells us if student got his/her Student ID. Structs hold only state and no behavior.
 
   type Student struct {
- 
   Name string
- 
   ID int
- 
-}
+  }
+
 * Interface:
 - Go isn’t object oriented in the typical sense, i.e. if you’re coming from C#, Java or even C++, but it does offer some features which map to features often available in the OO world in one way or another.
 - It does not have exact Inheritance but duck typing. 
