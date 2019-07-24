@@ -1,4 +1,4 @@
-Go based presentations
+OOPs Concepts in Golang
 ----------------------
 
-* [Golang Basics](https://talks.godoc.org/github.com/drashtived03/goslides/golangbasics.slide)
+* [OOPs Concepts in Golang](https://talks.godoc.org/github.com/Poonam-Malve/oopsslide/oops.slide#1)
