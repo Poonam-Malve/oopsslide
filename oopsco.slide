@@ -12,7 +12,7 @@ Poonam Malve
 - Timer and Ticker
 
 * Introduction to OOPs
-** OOP based on the definition:
+  OOP based on the definition:
 - Is a programming paradigm based on the concept of “objects”, which may contain data, in the form of fields, often known as attributes; and code, in the form of procedures, often known as methods
 - an Object’s procedures can access and often modify the attributes of the object with which they are associated
 - an Object’s internal state is protected from outside world (encapsulated) leveraging private/protected/public visibility of attributes and methods
@@ -20,7 +20,7 @@ Poonam Malve
 Contd..
 
 * Introduction to OOPs (Contd..)
-** The mentioned concept properties are implemented in most popular OO languages, Java and C++ by mechanics such as:
+  The mentioned concept properties are implemented in most popular OO languages, Java and C++ by mechanics such as:
 - Encapsulation (possible on package level in Go)
 - Composition (possible through embedding in Go)
 - Polymorphism (possible through Interface satisfaction in Go. Type satisfies Interface without manually implementing it if it defines all the Interface methods. Since almost anything can have methods attached, even primitive types such as Int, almost anything can satisfy an interface)
