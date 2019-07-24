@@ -15,9 +15,6 @@ Test slide
 .play interfacedemo/main.go
 Cont..
 
-* Slide 2
-.play interfacedemo/main.go /^//Part 2/,/^//END/
-
 
 * Strings in Go
 
