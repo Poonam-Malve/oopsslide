@@ -12,7 +12,7 @@ Poonam Malve
 
 * Slide 1
 Test slide
-.play interfacedemo/main.go
+.play interfacedemo/main.go /^func main/,/^}/
 Cont..
 
 
