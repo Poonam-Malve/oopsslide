@@ -35,9 +35,11 @@ Contd..
 - Interfaces
 
 * Features:
+
   1. Structs:
-     A struct defines state. Here is a Student struct. It has a Name field and a integer called ID, 
-     which tells us if student got his/her Student ID. Structs hold only state and no behavior.
+   - A struct defines state. Here is a Student struct. 
+   - It has a Name field and a integer called ID, which tells us if student got his/her Student ID. 
+   - Structs hold only state and no behavior.
 
      type Student struct {
      Name string
@@ -48,9 +50,10 @@ Contd..
    - Methods are functions that operate on particular types. 
    - They have a receiver clause that mandates what type they operate on. 
    - Here is a GetData() method that operates on Student structs and prints their state:
+    `program`
      func (s Student) GetData() {
-      fmt.Printf("Name: '%s', ID: %d\n", s.Name, s.ID)
-      }
+          fmt.Printf("Name: '%s', ID: %d\n", s.Name, s.ID)
+     }
 
 * Interface:
 - Go isn’t object oriented in the typical sense, i.e. if you’re coming from C#, Java or even C++, but it does offer some features which map to features often available in the OO world in one way or another.
