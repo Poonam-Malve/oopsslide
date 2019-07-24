@@ -36,7 +36,7 @@ Contd..
 
 * Features:
 
-*1. Structs:*
+  *1. Structs:*
 - A struct defines state. Here is a Student struct. 
 - It has a Name field and a integer called ID, which tells us if student got his/her Student ID. 
 - Structs hold only state and no behavior.
@@ -46,14 +46,13 @@ Contd..
      ID int
      }
 
-*2. Methods:*
+  *2. Methods:*
 - Methods are functions that operate on particular types. 
 - They have a receiver clause that mandates what type they operate on. 
 - Here is a GetData() method that operates on Student structs and prints their state:
 
       func (s Student) GetData() {
-          fmt.Printf("Name: '%s', ID: %d\n", s.Name, s.ID)
-     }
+          fmt.Printf("Name: '%s', ID: %d\n", s.Name, s.ID)}
      
 
 * Interface:
