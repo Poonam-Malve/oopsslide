@@ -69,7 +69,8 @@ Contd..
      
 * 4. Interface:
 - Go isn’t object oriented in the typical sense, i.e. if you’re coming from C#, Java or even C++, but it does offer some features which map to features often available in the OO world in one way or another.
-- It does not have exact Inheritance but duck typing. .link https://en.wikipedia.org/wiki/Duck_typing Duck typing
+- It does not have exact Inheritance but duck typing. 
+.link https://en.wikipedia.org/wiki/Duck_typing Read more about Duck typing here
 - Duck typing comes from the phrase – if something looks like a duck, swims like a duck and quacks like a duck then it’s probably a duck.
 
 * Implementation:
