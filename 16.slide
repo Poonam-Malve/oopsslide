@@ -80,6 +80,16 @@ Contd..
 * Implementation (Contd..):
 .play interfacedemo/main.go /^//Part 2/,/^//END/
 
+* Object-Oriented Design: The Go Way
+- Let's see how Go measures up against the pillars of object-oriented programming: encapsulation, inheritance, and polymorphism. 
+- Those are features of class-based programming languages, which are the most popular object-oriented programming languages.
+- At the core, objects are language constructs that have state and behavior that operates on the state and selectively exposes it to other parts of the program. 
+
+* 1. Encapsulation:
+- A variable or method of an object is said to be encapsulated if it is inaccessible to clients of the object. 
+- Encapsulation, sometimes called information hiding, is a key aspect of object-oriented programming.
+- Go has only one mechanism to control the visibility of names: capitalized identifiers are exported from the package in which they are defined, and uncapitalized names are not. 
+- The same mechanism that limits access to members of a package also limits access to the fields of a struct or the methods of a type. As a consequence, to encapsulate an object, we must make it a struct.
 
 * Strings in Go
 
