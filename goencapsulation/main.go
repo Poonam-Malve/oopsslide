@@ -3,14 +3,14 @@ package main
 import (
 	"fmt"
 
-	"goslides/goencapsulation/realstate"
+	"goslides/goencapsulation/realestate"
 )
 
 func main() {
-	var property realstate.PropertyOption
+	var property realestate.PropertyOption
 
 	//PropertyOption interface with GetName() method
-	property = realstate.CreateBuilding(
+	property = realestate.CreateBuilding(
 		"Building 1",
 		"Pune",
 		"150 acr",
@@ -18,7 +18,7 @@ func main() {
 
 	fmt.Println(property.GetName())
 
-	property = realstate.CreateHouse(
+	property = realestate.CreateHouse(
 		"House 1",
 		"123 house",
 		15, //number of rooms

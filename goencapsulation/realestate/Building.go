@@ -1,4 +1,4 @@
-package realstate
+package realestate
 
 type Building struct {
 	name    string

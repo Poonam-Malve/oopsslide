@@ -1,4 +1,4 @@
-package realstate
+package realestate
 
 type PropertyOption interface {
 	GetName() string
