@@ -61,12 +61,12 @@ Contd..
 - Here is example
 .code embeddingtypedemo/main.go /^//Part 1/,/^//Part 2/
 
-* 3. Embedding:(Contd..)
+* 3. Embedding: (Contd..)
 .play embeddingtypedemo/main.go /^//Part 2/,/^//END/
 
 - The main purpose of type embedding is to extend the functionalities of the embedded types into the embedding type, so that we don't need to re-implement the functionalities of the embedded types for the embedding type.
 
-     
+
 * 4. Interface:
 - Go isn’t object oriented in the typical sense, i.e. if you’re coming from C#, Java or even C++, but it does offer some features which map to features often available in the OO world in one way or another.
 - It does not have exact Inheritance but duck typing. 
@@ -90,6 +90,10 @@ Contd..
 - Encapsulation, sometimes called information hiding, is a key aspect of object-oriented programming.
 - Go has only one mechanism to control the visibility of names: capitalized identifiers are exported from the package in which they are defined, and uncapitalized names are not. 
 - The same mechanism that limits access to members of a package also limits access to the fields of a struct or the methods of a type. As a consequence, to encapsulate an object, we must make it a struct.
+
+* 1. Encapsulation (Contd..)
+- Let take an example:
+.code goencapsulation/realestate/Property.go
 
 * Strings in Go
 
