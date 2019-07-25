@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+//Part 1 OMIT
+
 type Person struct {
 	Name string
 	Age  int
@@ -18,6 +20,7 @@ func (s *Singer) SetWork(works string) {
 	s.works = works
 }
 
+//Part 2 OMIT
 type Singer struct {
 	Person // extends Person by embedding it
 	works  string
@@ -33,3 +36,5 @@ func main() {
 	(&singer).SetWork("Music Company")
 	fmt.Println(singer.works)
 }
+
+//END OMIT
