@@ -92,8 +92,11 @@ Contd..
 - The same mechanism that limits access to members of a package also limits access to the fields of a struct or the methods of a type. As a consequence, to encapsulate an object, we must make it a struct.
 
 * 1. Encapsulation (Contd..)
-- Let take an example:
+- Let's take an example:
 .code goencapsulation/realestate/Property.go
+.code goencapsulation/realestate/Building.go
+.code goencapsulation/realestate/House.go
+
 
 * Strings in Go
 
