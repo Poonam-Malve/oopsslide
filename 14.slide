@@ -32,9 +32,7 @@ Contd..
 - Embedding
 - Interfaces
 
-* Features:
-
-*1.Structs:*
+* 1. Structs:
 
 - A struct defines state. Here is a Student struct. 
 - It has a Name field and a integer called ID, which tells us if student got his/her Student ID. 
@@ -45,7 +43,7 @@ Contd..
      ID int
      }
 
-*2.Methods:*
+* 2. Methods:
 
 - Methods are functions that operate on particular types. 
 - They have a receiver clause that mandates what type they operate on. 
@@ -54,16 +52,17 @@ Contd..
       func (s Student) GetData() {
           fmt.Printf("Name: '%s', ID: %d\n", s.Name, s.ID)}
           
-* Features (Contd..)
+* 3.Embedding:
 
-*3.Embedding:*
 - You can embed anonymous types inside each other. 
 - If you embed a nameless struct then the embedded struct provides its state (and methods) to the embedding struct directly. 
 - Here is example
 .code embeddingtypedemo/main.go /^//Part 1/,/^//Part 2/
 
-* *3.Embedding:(Contd..)*
+* 3.Embedding:(Contd..)
 .play embeddingtypedemo/main.go /^//Part 2/,/^//END/
+
+- The main purpose of type embedding is to extend the functionalities of the embedded types into the embedding type, so that we don't need to re-implement the functionalities of the embedded types for the embedding type.
 
      
 * Interface:
