@@ -62,7 +62,7 @@ Contd..
 - Here is example
 .code embeddingtypedemo/main.go /^//Part 1/,/^//Part 2/
 
-*3.Embedding:(Contd..)*
+* *3.Embedding:(Contd..)*
 .play embeddingtypedemo/main.go /^//Part 2/,/^//END/
 
      
