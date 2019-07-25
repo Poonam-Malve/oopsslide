@@ -91,9 +91,23 @@ Contd..
 - Go has only one mechanism to control the visibility of names: capitalized identifiers are exported from the package in which they are defined, and uncapitalized names are not. 
 - The same mechanism that limits access to members of a package also limits access to the fields of a struct or the methods of a type. As a consequence, to encapsulate an object, we must make it a struct.
 
-* 1. Encapsulation (Contd..)
-- Let take an example:
+* 1. Encapsulation Implementation:
+- Let's take an example:
+- Package name is realestate.
+- In this example PropertyOption is an interface with one method private GetName().
 .code goencapsulation/realestate/Property.go
+
+* 1. Encapsulation Implementation (Contd..):
+- Buiding is a struct with private members.
+.code goencapsulation/realestate/Building.go
+
+* 1. Encapsulation Implementation (Contd..):
+- House is a struct with private members.
+.code goencapsulation/realestate/House.go
+
+* 1. Encapsulation Implementation (Contd..):
+.play goencapsulation/main.go
+
 
 * Strings in Go
 
