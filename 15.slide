@@ -6,8 +6,9 @@ Poonam Malve
 
 * Agenda
 - Introduction to OOPs
-- Go Object-Oriented Language Features
-- Interface
+- Object-Oriented Language Features
+- Object-Oriented Design: The Go Way
+
 
 * Introduction to OOPs
   OOP based on the definition:
@@ -50,31 +51,32 @@ Contd..
 - Here is a GetData() method that operates on Student structs and prints their state:
 
       func (s Student) GetData() {
-          fmt.Printf("Name: '%s', ID: %d\n", s.Name, s.ID)}
+          fmt.Printf("Name: '%s', ID: %d\n", s.Name, s.ID)
+      }
           
-* 3.Embedding:
+* 3. Embedding:
 
 - You can embed anonymous types inside each other. 
 - If you embed a nameless struct then the embedded struct provides its state (and methods) to the embedding struct directly. 
 - Here is example
 .code embeddingtypedemo/main.go /^//Part 1/,/^//Part 2/
 
-* 3.Embedding:(Contd..)
+* 3. Embedding:(Contd..)
 .play embeddingtypedemo/main.go /^//Part 2/,/^//END/
 
 - The main purpose of type embedding is to extend the functionalities of the embedded types into the embedding type, so that we don't need to re-implement the functionalities of the embedded types for the embedding type.
 
      
-* Interface:
+* 4. Interface:
 - Go isn’t object oriented in the typical sense, i.e. if you’re coming from C#, Java or even C++, but it does offer some features which map to features often available in the OO world in one way or another.
-- It does not have exact Inheritance but duck typing. 
+- It does not have exact Inheritance but duck typing. .link https://en.wikipedia.org/wiki/Duck_typing Duck typing
 - Duck typing comes from the phrase – if something looks like a duck, swims like a duck and quacks like a duck then it’s probably a duck.
 
 * Implementation:
 .code interfacedemo/main.go /^//Part 1/,/^//Part 2/
 Contd..
 
-* Slide 2
+* Implementation (Contd..):
 .play interfacedemo/main.go /^//Part 2/,/^//END/
 
 
