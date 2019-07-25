@@ -106,7 +106,7 @@ Contd..
 .code goencapsulation/realestate/House.go
 
 * 1. Encapsulation Implementation (Contd..):
-.play goencapsulation/main.go
+.code goencapsulation/main.go
 
 
 * Strings in Go
