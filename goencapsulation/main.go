@@ -2,7 +2,7 @@ package main
 
 import (
 	"fmt"
-	"goslides/goencapsulation/realestate"
+	"oopsslide/goencapsulation/realestate"
 )
 
 func main() {
