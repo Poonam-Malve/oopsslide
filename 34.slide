@@ -140,11 +140,14 @@ Contd..
 * Polymorphism with interfaces:
 .code gopolymorphism/withinterface/main.go /^//Part 1/,/^//Part 2/
 
-* Contd
+* Contd..
 .play gopolymorphism/withinterface/main.go /^//Part 2/,/^//END/
 
 
 * Reference
-.link https://medium.com/rungo/go-introductory-tutorials-896aeda0fb8a
-.link https://gobyexample.com/
+.link https://en.wikipedia.org/wiki/Duck_typing
+.link https://www.youtube.com/watch?v=fXePonZrPZU
+.link https://golang.org/doc/effective_go.html
+.link https://flaviocopes.com/golang-is-go-object-oriented/
+.link https://blog.wilianto.com/how-oop-works-in-golang.html
 
