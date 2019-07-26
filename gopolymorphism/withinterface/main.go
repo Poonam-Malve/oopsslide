@@ -21,11 +21,11 @@ type Duck struct {
 	legs int
 }
 
-//Part 2 OMIT
 func (d *Duck) makeNoise() string {
 	return d.name + " says quack!"
 }
 
+//Part 2 OMIT
 func NewDog(name string) Animal {
 	return &Dog{
 		legs: 4,
@@ -47,9 +47,8 @@ func main() {
 	duck = NewDuck("donald")
 
 	fmt.Println(dog.makeNoise())
-	// Tommy says woof!
 	fmt.Println(duck.makeNoise())
-	// donald says quack!
+
 }
 
-//END
+//END OMIT

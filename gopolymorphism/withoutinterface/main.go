@@ -47,4 +47,4 @@ func main() {
 	// donald says quack!
 }
 
-//END
+//END OMIT
