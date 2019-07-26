@@ -135,7 +135,7 @@ Contd..
 .code gopolymorphism/withoutinterface/main.go
 
 * Polymorphism with interfaces:
-.code gopolymorphism/withinterface/main.
+.code gopolymorphism/withinterface/main.go
 
 
 * Reference
