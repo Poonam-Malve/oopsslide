@@ -132,10 +132,16 @@ Contd..
 - As we have already discussed, interfaces can be implicitly implemented in Go.
 
 * Polymorphism without interfaces:
-.code gopolymorphism/withoutinterface/main.go
+.code gopolymorphism/withoutinterface/main.go /^//Part 1/,/^//Part 2/
+
+* Contd..
+.play gopolymorphism/withoutinterface/main.go /^//Part 2/,/^//END/
 
 * Polymorphism with interfaces:
-.code gopolymorphism/withinterface/main.go
+.code gopolymorphism/withinterface/main.go /^//Part 1/,/^//Part 2/
+
+* Contd
+.play gopolymorphism/withinterface/main.go /^//Part 2/,/^//END/
 
 
 * Reference
