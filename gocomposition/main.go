@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+//Part 1 OMIT
 type author struct {
 	firstName string
 	lastName  string
@@ -20,6 +21,7 @@ type post struct { //composition
 	author
 }
 
+//Part 2 OMIT
 func (p post) details() {
 	fmt.Println("Title: ", p.title)
 	fmt.Println("Content: ", p.content)
@@ -40,6 +42,7 @@ func (w website) contents() {
 	}
 }
 
+//Part 3 OMIT
 func main() {
 	author1 := author{
 		"Naveen",
@@ -56,13 +59,10 @@ func main() {
 		"Go does not support classes but methods can be added to structs",
 		author1,
 	}
-	post3 := post{
-		"Concurrency",
-		"Go is a concurrent language and not a parallel one",
-		author1,
-	}
 	w := website{
-		posts: []post{post1, post2, post3},
+		posts: []post{post1, post2},
 	}
 	w.contents()
 }
+
+//END OMIT
