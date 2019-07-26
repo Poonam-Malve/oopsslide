@@ -121,6 +121,9 @@ Contd..
 .code gocomposition/main.go /^//Part 1/,/^//Part 2/
 
 * Contd..
+.code gocomposition/main.go /^//Part 2/,/^//Part 3/
+
+* Contd..
 .play gocomposition/main.go /^//Part 3/,/^//END/
 
 * Strings in Go
