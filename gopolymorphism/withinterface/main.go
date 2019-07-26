@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//Part 1 OMIT
 type Animal interface {
 	makeNoise() string
 }
@@ -20,6 +21,7 @@ type Duck struct {
 	legs int
 }
 
+//Part 2 OMIT
 func (d *Duck) makeNoise() string {
 	return d.name + " says quack!"
 }
@@ -49,3 +51,5 @@ func main() {
 	fmt.Println(duck.makeNoise())
 	// donald says quack!
 }
+
+//END

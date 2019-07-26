@@ -2,6 +2,7 @@ package main
 
 import "fmt"
 
+//Part 1 OMIT
 type Animal struct {
 	makeNoiseFn func(*Animal) string //attribute as function
 	name        string
@@ -22,6 +23,7 @@ func NewDog(name string) *Animal {
 	}
 }
 
+//Part 2 OMIT
 func NewDuck(name string) *Animal {
 	return &Animal{
 		makeNoiseFn: func(a *Animal) string {
@@ -44,3 +46,5 @@ func main() {
 	fmt.Println(duck.makeNoise())
 	// donald says quack!
 }
+
+//END
