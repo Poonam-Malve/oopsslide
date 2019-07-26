@@ -116,8 +116,12 @@ Contd..
 - Go does not support inheritance, however it does support composition. 
 - Composition can be achieved in Go is by embedding one struct type into another.
 
-* 2. Embedding slice of structs
-- 
+* Embedding slice of structs
+
+.code gocomposition/main.go /^//Part 1/,/^//Part 2/
+
+* Contd..
+.play gocomposition/main.go /^//Part 3/,/^//END/
 
 * Strings in Go
 
