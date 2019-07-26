@@ -111,6 +111,13 @@ Contd..
 * Output
 .link https://drive.google.com/file/d/1kPpPfho_0yFHzm7aNuxXSQH8cjqEcf3r/view?usp=sharing output
 
+* 2. Inheritance:
+- Inheritance or subclassing was always a controversial issue. There are many problems with implementation inheritance
+- Go does not support inheritance, however it does support composition. 
+- Composition can be achieved in Go is by embedding one struct type into another.
+
+* 2. Embedding slice of structs
+- 
 
 * Strings in Go
 
