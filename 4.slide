@@ -38,12 +38,12 @@ Contd..
 * 1. Structs:
 
 - A struct defines state. Here is a Student struct. 
-- It has a Name field and a integer called ID, which tells us if student got his/her Student ID. 
+- It has a Name field and a integer field called ID. 
 - Structs hold only state and no behavior.
 
-     type Student struct {
-     Name string
-     ID int
+      type Student struct {
+           Name string
+           ID int
      }
 
 * 2. Methods:
