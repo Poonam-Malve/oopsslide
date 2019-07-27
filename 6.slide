@@ -96,7 +96,7 @@ Contd..
 * 1. Encapsulation Implementation:
 - Let's take an example:
 - Package name is realestate.
-- In this example PropertyOption is an interface with one method private GetName().
+- In this example PropertyOption is an interface with one method GetName().
 .code goencapsulation/realestate/Property.go
 
 * 1. Encapsulation Implementation (Contd..):
